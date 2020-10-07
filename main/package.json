@@ -7,10 +7,10 @@
     "build": "webpack"
   },
   "dependencies": {
-    "lib": "../lib-0.1.0-unified-file.tgz"
+    "lodash-es": "^4.17.15"
   },
   "devDependencies": {
-    "webpack": "^5.0.0-rc.3",
+    "webpack": "^4.44.2",
     "webpack-bundle-analyzer": "^3.9.0",
     "webpack-cli": "^3.3.12"
   }

@@ -1,4 +1,4 @@
-import {wrappedAdd} from 'lib'
+import {wrappedAdd} from './inner'
 
 
 console.log(wrappedAdd)
