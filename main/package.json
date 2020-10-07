@@ -4,12 +4,19 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "microbundle": "microbundle -i src/index.js -o dist/microbundle.js -f modern --external none",
+    "microbundle:analyze": "source-map-explorer dist/microbundle.modern.js",
+    "esbuild": "esbuild --bundle --sourcemap --format=esm --outfile=dist/esbuild.js src/index.js",
+    "esbuild:analyze": "source-map-explorer dist/esbuild.js"
   },
   "dependencies": {
     "lodash-es": "^4.17.15"
   },
   "devDependencies": {
+    "esbuild": "^0.7.11",
+    "microbundle": "^0.12.4",
+    "source-map-explorer": "^2.5.0",
     "webpack": "^4.44.2",
     "webpack-bundle-analyzer": "^3.9.0",
     "webpack-cli": "^3.3.12"
