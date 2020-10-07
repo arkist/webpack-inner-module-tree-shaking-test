@@ -7,7 +7,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "lib": "../lib-0.1.0.tgz"
+    "lib": "../lib-0.1.0-unified-file.tgz"
   },
   "devDependencies": {
     "webpack": "^4.44.2",
