@@ -1,0 +1,14 @@
+{
+  "name": "lib",
+  "version": "0.1.0",
+  "main": "index.js",
+  "module": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "private": true,
+  "sideEffects": false,
+  "dependencies": {
+    "lodash-es": "^4.17.15"
+  }
+}

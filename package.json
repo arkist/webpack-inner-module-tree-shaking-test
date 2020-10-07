@@ -1,0 +1,5 @@
+{
+  "name": "webpack-inner-module-tree-shaking-test",
+  "version": "0.0.1",
+  "private": true
+}
